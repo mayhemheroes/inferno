@@ -14,10 +14,6 @@ libfuzzer-sys = "0.4"
 [dependencies.inferno]
 path = ".."
 
-# Prevent this from interfering with workspaces
-[workspace]
-members = ["."]
-
 [[bin]]
 name = "collapse_fuzz"
 path = "fuzz_targets/collapse_fuzz.rs"
