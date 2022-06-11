@@ -1,0 +1,7 @@
+project: inferno
+target: collapse-fuzz
+
+cmds:
+  - cmd: /collapse_fuzz
+  - cmd: /collapse_fuzz_no_inst @@
+    libfuzzer: false
